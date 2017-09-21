@@ -17,20 +17,19 @@ DUMPED_VECTOR_DIR = 'data/vectors/'
 #WORD_EMBEDDING_VECTOR_PATH = '/raid/data/skar3/GoogleNews-vectors-negative300.bin.gz'
 
 features_to_extract = [
-    # 'unigram',
-    # 'bigram',
-    # 'trigram',
-    # 'binary_unigram',
-    # 'binary_bigram',
-    # 'binary_trigram',
-    # 'char_tri',
-    # 'char_4_gram',
+    'unigram',
+    'bigram',
+    'trigram',
+    'binary_unigram',
+    'binary_bigram',
+    'binary_trigram',
+    'char_tri',
+    'char_4_gram',
+    'char_5_gram',
     # 'pos',
-    'verbTenses'
+    # 'verbTenses'
     # 'hasQuestion'
     # 'posPENN'
-
-    # 'char_5_gram',
     # 'two_skip_3_grams',
     # 'two_skip_2_grams',
     # 'concepts',
@@ -61,9 +60,10 @@ features_to_use = [
     'binary_trigram',
     'char_tri',
     'char_4_gram',
-    'pos',
-    # 'posPENN'
-    'verbTenses'
+    'char_5_gram',
+    # 'pos',
+    # # 'posPENN'
+    # 'verbTenses'
     # 'hasQuestion'
     # 'char_5_gram',
     # 'two_skip_3_grams',
